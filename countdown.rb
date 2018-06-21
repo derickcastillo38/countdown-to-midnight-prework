@@ -2,7 +2,7 @@
 
 def countdown(num)
   if num == 1
-    puts "#{num} SECOND(S)!"
+    return "#{num} SECOND(S)!"
   else
     puts "#{num} SECOND(S)!"
     puts countdown(num - 1)
