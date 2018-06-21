@@ -10,8 +10,5 @@ def countdown(num)
 end
 
 def countdown_with_sleep(num)
-  num.times do |i|
-    puts "#{i} seconds"
-  end
 
 end
